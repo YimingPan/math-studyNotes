@@ -150,6 +150,36 @@ $$
 
 游戏还没结束，还有例2.4：
 
+$$
+\left[ \begin{matrix}
+1\\
+3
+\end{matrix} \right]
+\left[ \begin{matrix}
+1 & -1
+\end{matrix} \right]
+=
+\left[ \begin{matrix}
+1 & -1\\
+3 & -3
+\end{matrix} \right],
+\left[ \begin{matrix}
+2\\
+4
+\end{matrix} \right]
+\left[ \begin{matrix}
+1 & 1
+\end{matrix} \right]
+\left[ \begin{matrix}
+2 & 2\\
+4 & 4
+\end{matrix} \right]
+$$
+
+这次我的用意可能不太明显。你把这两个矩阵加起来试试？是不是又得到了原来那个矩阵乘法的解？这个例子产生的结论是：**A的每一列和B的每一行相乘，得到的一系列矩阵加起来，等于AB**。
+
+矩阵乘法除了定义之外的三种理解方式在实际学习中更加有用，它能帮你更好地理解一些东西。
+
 ### 3. 高斯-约当消元
 
 ### 4. Ax=b的解法及其几何意义
