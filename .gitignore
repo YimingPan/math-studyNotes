@@ -1,2 +1,5 @@
 # ignore img/
 img/
+
+# ignore pdf files
+*.pdf
